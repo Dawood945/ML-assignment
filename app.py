@@ -38,7 +38,7 @@ def transform_text(text):
     return " ".join(y)
 
 
-
+nltk.download('punkt')
 st.title("Email/SMS Spam Classifier")
 input_sms = st.text_area("Enter the message")
 
